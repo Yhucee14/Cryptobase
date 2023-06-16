@@ -15,8 +15,8 @@ const Navbar = () => {
             {/* <Button className='menu-control-container'></Button> */}
         </div>
 
-        <Menu theme="dark">
-          <Menu.Item icon={<HomeOutlined />}>
+        <Menu theme="dark" >
+          <Menu.Item icon={<HomeOutlined />} className='darko'>
             <Link to="/">Home</Link>
           </Menu.Item>
           <Menu.Item icon={<FundOutlined />}>

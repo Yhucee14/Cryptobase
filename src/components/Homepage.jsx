@@ -32,7 +32,7 @@ const Homepage = () => {
         <Link to='/cryptocurrencies'>Show more</Link></Title>
     </div>
 
-    <Cryptocurrencies />
+    <Cryptocurrencies simplified/>
 
     <div className='home-heading-container'>
       <Title level={2} className='home-title'>
